@@ -1,0 +1,205 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "hi there",
+        "howdy",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hiya",
+        "how do you do",
+        "nice to meet you",
+        "hey there",
+        "gday",
+        "yo",
+        "sup",
+        "hi friend"
+      ],
+      "responses": [
+        "Hi there! Thank you for saying hello....I am here to assist you with recommending shcemes you might be eligible.... Press '/start' to start the survey",
+        "Hello! I hope you are doing well....press '/start' to know about the schemes you are eligible for.",
+        "Hey! amigo, press '/start' to know about the schemes you are eligible for."
+      ]
+    },
+    {
+      "tag": "questions",
+      "patterns":[
+        "who",
+        "who?",
+        "why",
+        "why?",
+        "when",
+        "when?",
+        "where",
+        "where?",
+        "what",
+        "what?"
+      ],
+      "responses":[
+        "Sorry, I here to talk about Schemes. Press '/start' to know about the schemes",
+        "Your question good....But I only trained to answer about government schemes..So press '/start' to know about the government schemes"
+      ]
+    },
+    {
+      "tag": "terminators",
+      "patterns":[
+        "hmm",
+        "ok",
+        "haan",
+        "ah",
+        "ho",
+        "ho ho"
+      ],
+      "responses":[
+        "Glad I could help! If you have more questions, just let me know.",
+        "See you later! Have a great day."
+      ]
+    },
+    {
+      "tag": "scheme",
+      "patterns": [
+        "schemes",
+        "scheme",
+        "shceme",
+        "shcemes",
+        "sh",
+        "shc",
+        "sche",
+        "schem",
+        "procedure",
+        "proc",
+        "tell"
+      ],
+      "responses": [
+        "Press '/start' to know about the schemes you are eligible for.",
+        "I am here to assist you with recommending shcemes you might be eligible.... Press '/start' to start the survey",
+        "Press '/start' to know about the schemes"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "see ya",
+        "farewell",
+        "take care",
+        "until next",
+        "so long",
+        "bye for now",
+        "adios",
+        "ciao",
+        "see you soon",
+        "catch you later",
+        "later",
+        "goodnight",
+        "bye bye",
+        "goodnight",
+        "good bye"
+      ],
+      "responses": [
+        "Goodbye! If you have more questions, feel free to ask.",
+        "See you later! Have a great day.",
+        "Farewell! :)"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thank",
+        "thanks"
+      ],
+      "responses": [
+        "You're welcome! If you need anything else, feel free to ask.",
+        "Glad I could help! If you have more questions, just let me know."
+      ]
+    },
+    {
+      "tag": "unnecessary",
+      "patterns": [
+        "joke",
+        "song",
+        "sing",
+        "random",
+        "like",
+        "entertain me",
+        "make me",
+        "surprise me",
+        "do",
+        "say",
+        "do something",
+        "story",
+        "talk",
+        "chat",
+        "share",
+        "amuse",
+        "say",
+        "keep",
+        "give"
+      ],
+      "responses": [
+        "I'm here to assist you with scheme information and I also not a generative pretrained model. I am prediction based model. Please press '/start' to know about the schemes you are eligible for."
+      ]
+    },
+    {
+      "tag": "good_mood",
+      "patterns": [
+        "how are you",
+        "what about",
+        "awesome",
+        "great",
+        "terrific",
+        "amazing",
+        "fantastic",
+        "splendid",
+        "superb",
+        "no",
+        "no no"
+      ],
+      "responses": [
+        "I'm just a computer program, By the way thank you for your care....I am here to assist you for Scheme related information.... Press '/start' to start the survey"
+      ]
+    },
+    {
+      "tag": "welcome",
+      "patterns": [
+        "start",
+        "begin",
+        "get started",
+        "initiate",
+        "welcome",
+        "welcome aboard",
+        "welcome to the chat",
+        "let's begin",
+        "let's get started",
+        "begin the conversation",
+        "start the interaction",
+        "start a chat",
+        "initiate a conversation",
+        "greetings and salutations",
+        "hello and welcome",
+        "let the conversation begin",
+        "start the discussion",
+        "begin the dialogue",
+        "get things started"
+      ],
+      "responses": [
+        "Welcome! I can help you discover government schemes you may be eligible for. Just provide me /start to start the survey"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": ["default", "fallback", "fallback intent", "no match"],
+      "responses": [
+        "I'm sorry, I didn't quite get that. Can you please rephrase or ask about government schemes? Press '/start' to start the survey"
+      ]
+    }
+  ]
+}
